@@ -1,0 +1,8 @@
+.input {
+    height: 25px;
+    font-size: $medium;
+    background-color: $white;
+    &:focus {
+        background-color: $tangerine;
+    }
+}

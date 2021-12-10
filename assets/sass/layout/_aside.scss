@@ -1,0 +1,41 @@
+.aside-container {
+    margin: 10px;
+}
+
+.aside {
+    border: 1px solid $black;
+    margin: 5px;
+    &__img {
+        border: 1px solid $black;
+        width: 30%;
+        border-radius: 50%;
+        overflow: hidden;
+        align-content: center;
+        margin: 0 auto;
+        img {
+            max-width: 100%;
+        }
+    }
+    &__title {
+        text-align: center;
+    }
+    &__rrss {
+        text-align: center;
+    }
+    &__content {
+        font-family: $ubuntu;
+        font-size: $small;
+        line-height: 2em;
+    }
+    &__list {
+        font-family: $ubuntu;
+        font-size: $small;
+        a {
+            text-decoration: none;
+        }
+    }
+    &__svg {
+        width:200px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,25 @@
+.rotacion {
+    animation: rotacion 3s linear 0s infinite ;
+    transform-origin: 79% 79%;
+}
+
+@keyframes rotacion {
+    0% {transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.traslacion {
+    animation: traslacion 2s linear infinite alternate-reverse;
+}
+
+@keyframes traslacion {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(30%)
+    }
+}

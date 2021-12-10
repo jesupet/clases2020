@@ -1,0 +1,20 @@
+.btn {
+    background-color: $tangerine;
+    color: $black;
+    border: transparent;
+    font-family: $poppins;
+    font-size: $medium;
+    height: 30px;
+    &:hover {
+        background-color: $white;
+    }
+}
+
+.btn-grey {
+    @extend .btn;
+    background-color: grey;
+    color: $white;
+    font-weight: bold;
+    width: 100%;
+
+}

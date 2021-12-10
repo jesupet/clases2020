@@ -1,0 +1,41 @@
+.curso-container {
+    border: 1px solid $black;
+    margin: 5px;
+}
+
+.curso {
+    border: 1px solid $black;
+    display: inline-block;
+    margin: 10px;
+    &__img {
+        margin: 10px;
+        img{
+            max-width: 100%;
+        }
+    }
+    &__name {
+        margin: 10px;
+        font-family: $ubuntu;
+        font-size: $large;
+    }
+    &__content {
+        margin: 10px;
+        font-family: $ubuntu;
+        font-size: $small;
+        line-height: 2em;
+    }
+    &__teacher {
+        margin: 10px;
+        font-family: $ubuntu;
+        font-size: $medium;
+    }
+    &__reactions {
+        margin: 10px;
+        font-family: $ubuntu;
+        font-size: $small;
+        i {
+            margin:5px;
+            ;
+        }
+    }
+}
